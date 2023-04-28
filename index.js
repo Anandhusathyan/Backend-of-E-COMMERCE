@@ -9,7 +9,6 @@ const Mongoose=require("mongoose");
 const Route=require('./routes/Router')   
 const dotenv=require('dotenv');
 dotenv.config();
- 
 
 const cors=require("cors");
 app.use(cors()); 
